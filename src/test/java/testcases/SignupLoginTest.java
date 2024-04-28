@@ -21,7 +21,7 @@ public class SignupLoginTest extends BaseClass{
 		
 		SignUpPage signup = new SignUpPage(driver);
 		
-		signup.signupfunction("john", "Rana", "jhn@xyz.com", "9214317890", "psd123", "psd123", "12,abc appt", "xyz street", "Mumbai", "562538", "Maharastra", "India");
+		signup.signupfunction("devid", "Rana", "dvd@xyz.com", "5214317890", "psd123", "psd123", "12,abc appt", "xyz street", "Mumbai", "562538", "Maharastra", "India");
 		
 		WebElement msgwelcome = driver.findElement(By.xpath("//h1"));
 		String actmsg = msgwelcome.getText();
